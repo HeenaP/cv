@@ -12,7 +12,6 @@ h1 {
 h2 {
   font-size: 1.2em;
   text-align: center;
-  margin: 0;
 }
 
 /*
@@ -71,8 +70,6 @@ label:last-child {
   display: block;
 }
 
-
-
 /*
   Styles label elements (tabs) *only* when they're 'checked'
 */
@@ -91,7 +88,6 @@ label:last-child {
 .fa {
   margin-right: 10px;
 }
-
 
 /* --------- Basic animation --------- */
 /*
