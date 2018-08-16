@@ -88,6 +88,7 @@ label:last-child {
 #tab4:checked ~ #content4,
 #tab5:checked ~ #content5 {
   display: block;
+  text-align: center;
 }
 /*
   Styles label elements (tabs) *only* when they're 'checked'
