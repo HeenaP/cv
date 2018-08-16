@@ -90,6 +90,12 @@ label:last-child {
   display: block;
 
 }
+
+.tab {
+  display: table;
+  table-layout: fixed;
+}
+
 /*
   Styles label elements (tabs) *only* when they're 'checked'
 */
