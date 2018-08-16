@@ -92,9 +92,13 @@ label:last-child {
 }
 
 .tab {
-  display: table;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   table-layout: fixed;
+  width: 100%; 
 }
+
 
 /*
   Styles label elements (tabs) *only* when they're 'checked'
@@ -123,6 +127,7 @@ label:last-child {
 */
 
 .tab_container section * {
+  display: table-cell;
   animation: fadeIn 0.7s ease-in-out;
 }
 
